@@ -1,0 +1,35 @@
+{
+  "pages": [    
+    "pages/home/home",
+    "pages/me/me",
+    "pages/order/order",
+    "pages/qrcode/qrcode",
+    "pages/myorder/myorder",
+    "pages/shuoming/shuoming"
+    
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#f4c903",
+    "navigationBarTitleText": "鲜橙通",
+    "navigationBarTextStyle": "black"
+  },
+  "tabBar": {
+    "color": "#Fc0",
+    "selectedColor": "#F4c903",
+    "borderStyle": "black",
+    "list" : [{
+      "selectedIconPath": "image/home.png",
+      "iconPath": "image/home-no.png",
+      "pagePath": "pages/home/home",
+      "text": "首页"
+    },{
+      "selectedIconPath": "image/me-ok.png",
+      "iconPath": "image/me.png",
+      "pagePath": "pages/me/me",
+      "text": "我的"
+    }]
+  },
+  "sitemapLocation": "sitemap.json",
+  "lazyCodeLoading": "requiredComponents"
+}

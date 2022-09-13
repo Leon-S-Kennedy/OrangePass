@@ -1,0 +1,16 @@
+<!--首页轮播图-->
+<swiper indicator-dots="{{true}}" indicator-active-color="#f4c903" autoplay="true" circular="true">
+  <swiper-item class="item1" >
+    <image src="../../image/swriper3.jpg" class="img"></image>
+  </swiper-item>
+  <swiper-item class="item2">
+    <image src="../../image/swriper1.jpg" class="img"></image>
+  </swiper-item>
+  <swiper-item class="item3">
+    <image src="../../image/swriper2.jpg" class="img"></image>
+  </swiper-item>
+</swiper>
+<view class="item" bindtap="tap1">
+  <text>预约</text>
+  <view class="right_arrow"></view>
+</view>

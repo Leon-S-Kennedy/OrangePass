@@ -1,0 +1,25 @@
+<view class="header">
+  <button class="login_btn" wx:if="{{!userInfo}}" bindtap="login" type="primary">授权登录</button>
+  <view wx:else class="root">
+    <image class="touxiang" src="{{userInfo.avatarUrl}}"></image>
+    <text class="nicheng">{{userInfo.nickName}}</text>
+    <button  bindtap="logout">退出登录</button>
+  </view>
+</view>
+
+<view wx:if="{{userInfo}}" class="item" bindtap="myorder">
+  <text>我的预约</text>
+  <view class="right_arrow"></view>
+</view>
+<view class="item" bindtap="shuoming">
+  <text>使用说明</text>
+  <view class="right_arrow"></view>
+</view>
+<view class="item">
+  <button class="button" open-type="feedback">反馈建议</button>
+  <view class="right_arrow"></view>
+</view>
+<view class="item">
+  <button class="button" open-type="contact">在线客服</button>
+  <view class="right_arrow"></view>
+</view>

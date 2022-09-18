@@ -1,0 +1,14 @@
+<!--pages/myorder/myorder.wxml-->
+<view class="text1">
+  <image class="touxiang" src="{{userInfo.avatarUrl}}"></image>
+  <text class="nicheng">{{userInfo.nickName}}</text>
+</view>
+<view class='myorder'>
+  <view wx:for="{{list}}" wx:key="_id" class="item" bindtap='toqrcode' data-time="{{item.time}}" data-id="{{item._id}}">
+    <text>{{item.order_time}}</text>
+    <view class="right_arrow"></view>
+  </view>
+  <view wx:if="{{list.length==0}}" class="no_order">
+    <text>您还没有预定，请先预定</text>
+  </view>
+</view>

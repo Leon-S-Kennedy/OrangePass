@@ -1,0 +1,42 @@
+/* pages/myorder/myorder.wxss */
+.item{
+  display: flex;
+  padding: 50rpx;
+  background: white;
+  align-items: center;
+  border-bottom: 1px solid gainsboro;
+}
+.right_arrow{
+  border: solid black;
+  border-width: 0 3px 3px 0;
+  padding: 3px;
+  position: absolute;
+  right: 15px;
+  transform: rotate(-45deg);
+  -webkit-transform: rotate(-45deg);
+}
+.text1{
+  
+  display: flex;
+  font-size: large;
+  align-items: center;
+  background: white;
+}
+.nicheng{
+  margin-left: 3%;
+}
+.touxiang{
+  width: 120rpx;
+  height: 120rpx;
+  border-radius: 50%;
+  margin-top: 30rpx;
+  margin-left: 5%;
+}
+.myorder{
+  margin-top: 10%;
+  margin-bottom: 10%;
+}
+.no_order{
+  margin-top: 10%;
+  text-align: center;
+}

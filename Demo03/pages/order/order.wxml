@@ -1,0 +1,10 @@
+<view class="title">
+  <text class="your_choose">您的选择:</text>
+  <text class="time">{{shijian}}</text>
+</view>
+<view class="shijian_list_root">
+  <view wx:for="{{shijianList}}" wx:key="order_id" class="shijian_item {{shijian==item.order_time?'selected':''}}" bindtap='selectApply' data-time="{{item.order_time}}">
+    {{item.order_time}}
+  </view>
+</view>
+<button type="primary" class="submit" bindtap="submit">预约</button>

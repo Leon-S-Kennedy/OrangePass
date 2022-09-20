@@ -1,0 +1,44 @@
+/* pages/order/order.wxss */
+.title{
+  height: 150rpx;
+  background: white;
+  
+}
+.your_choose{
+  font-size: larger;
+  margin-left: 30rpx;
+  line-height: 150rpx;
+}
+.time{
+  font-size: x-large;
+  color: #f4c903;
+  margin-left: 30rpx;
+  
+}
+.shijian_list_root{
+  margin-top: 5%;
+  row-gap: 40rpx;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  border-bottom: 2px solid gainsboro;
+} 
+.shijian_item{
+  width: 300rpx;
+  height: 120rpx;
+  border: 1px solid gray;
+  border-radius: 50rpx;
+  background: white;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.selected{
+  background: #f4c903;
+}
+.submit{
+  margin-top: 80rpx;
+  width: 500rpx;
+}

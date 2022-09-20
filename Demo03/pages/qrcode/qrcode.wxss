@@ -1,0 +1,54 @@
+/* pages/qrcode/qrcode.wxss */
+.wrapper{
+  width: 90%;
+  margin: 5%;
+  margin-top: 10%;
+  background: #ffffff;
+  border-radius: 50rpx;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+
+}
+.text1{
+  display: flex;
+  font-size: large;
+  align-items: center;
+}
+.nicheng{
+  margin-left: 3%;
+}
+
+.qr-code{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 5%;
+  background: #ffffff;
+}
+.qrimg{
+  width: 500rpx;
+  height: 500rpx;
+  border: 1px solid gainsboro;
+}
+.text2{
+  margin-top: 5%;
+  font-size: small;
+  color: gray;
+  text-align: center;
+}
+.back{
+  margin-top: 5%;
+  width: 500rpx;
+}
+.touxiang{
+  width: 120rpx;
+  height: 120rpx;
+  border-radius: 50%;
+  margin-top: 30rpx;
+  margin-left: 5%;
+}
+.delete{
+  margin-top: 3%;
+  width: 500rpx;
+}

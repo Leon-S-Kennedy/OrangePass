@@ -1,0 +1,16 @@
+<!--pages/qrcode/qrcode.wxml-->
+<view class="wrapper">
+  <view class="text1">
+    <image class="touxiang" src="{{userInfo.avatarUrl}}"></image>
+    <text class="nicheng">{{userInfo.nickName}}</text>
+  </view>
+  
+  <view class="qr-code">
+    <image src="{{image}}" class="qrimg"></image>
+  </view>
+
+  <view class="text2">请对准镜头</view>
+</view>
+<button class="back" bindtap="back">返回我的页面</button>
+<button wx:if="{{id}}" class="delete" bindtap="delete">删除预约</button>
+

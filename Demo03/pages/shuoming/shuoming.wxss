@@ -1,0 +1,19 @@
+/* pages/shuoming/shuoming.wxss */
+.shuoming{
+  margin: 5%;
+  text-align: center;
+  margin-top: 10%;
+  background: white;
+  border-radius: 30px;
+
+}
+.wenzi{
+  margin-top: 15%;
+  font-size: large;
+}
+.makabaka{
+  margin-top: 5%;
+  width: 600rpx;
+  height: 800rpx;
+
+}

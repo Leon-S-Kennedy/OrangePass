@@ -1,0 +1,5 @@
+<!--pages/shuoming/shuoming.wxml-->
+<view class="shuoming">
+  <text class="wenzi">就一个功能,应该用不着说明吧</text>
+  <image src="/image/makabaka.jpg" class="makabaka"></image>
+</view>
